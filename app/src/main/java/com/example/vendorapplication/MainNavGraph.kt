@@ -269,6 +269,7 @@ fun MainNavGraph(
         // ================= VEHICLE KYC (FIXED) =================
         composable(BottomNavItem.VehicleKYC.route) {
 
+
             // 🔴 TEMPORARY HARDCODE TOKEN (TESTING ONLY)
             val authToken =
                 "eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NTk5MDczNTQsInVzZXJJZCI6IjIyYWM1NjFkLWRhNWMtNDE2Ni1hYmJhLWQ5NzNlMmYwNDZhMyIsImVtYWlsIjoibmlraGlsLm1haGFyYUBjamRhcmNsLmNvbSIsIm1vYmlsZU51bWJlciI6Ijk2NTQ2MzI3NDQiLCJvcmdJZCI6ImVmMzAwNjgzLTkwMWItNDc3NC1iZjBlLTk1NWQ0OWU3OTZiYyIsIm5hbWUiOiJOaWtoaWwgU2luZ2ggTWFoYXJhIiwib3JnVHlwZSI6IkZMRUVUX09XTkVSIiwiaXNHb2QiOnRydWUsInBvcnRhbFR5cGUiOiJiYXNpYyJ9.MDDgj22r1Hlu4cbl_qySQpqLndzS1D_JAk0owgnQxJ8"
